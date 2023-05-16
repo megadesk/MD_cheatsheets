@@ -10,6 +10,9 @@
 
 # basic orientation to linux enviroment through WSL on a windows machine
 ## open terminal and open umbuntu
+
+* install ubuntu in your wsl link below helps
+https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#4-configure-ubuntu
 * search for terminal in windows app start up
 * power shell will start by defualt
 * open a new tab by clicking the arrow next to the + icon
@@ -111,9 +114,8 @@ conda config --add channels bioconda
 ```
 * 
 ```
-conda install -c python=3.8
-conda install -c pandas seaborn scikit-learn statsmodels numba scikit-learn-intelex matplotlib r-base scipy numpy 
-conda install jupyterlab ipykernel ipywidgets nb_conda_kernels
+conda install pandas seaborn scikit-learn statsmodels numba scikit-learn-intelex matplotlib r-base scipy numpy 
+conda install jupyterlab ipykernel ipywidgets nb_conda_kernels r-irkernel
 ```
 
 # Create and new enviroment 'not_base' 
@@ -126,8 +128,8 @@ conda config --add channels conda ; conda config --add channels conda-forge ; co
 # Install some more packages
 
 ``` 
-conda install -c pandas seaborn scikit-learn statsmodels numba scikit-learn-intelex matplotlib r-base scipy numpy 
-conda install  ipykernel ipywidgets nb_conda_kernels
+conda install pandas seaborn scikit-learn statsmodels numba scikit-learn-intelex matplotlib r-base scipy numpy 
+conda install ipykernel ipywidgets nb_conda_kernels r-irkernel
 ```
 
 
